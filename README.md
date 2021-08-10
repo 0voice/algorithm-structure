@@ -1,8 +1,77 @@
-## 2021年最新总结 100个常用数据结构，算法，算法导论，面试常用，大厂高级工程师总结，持续总结中
+<div align=left>
+
+# 2021年最新总结500个常用数据结构，算法，算法导论，面试常用，大厂高级工程师总结
+
+</div>
 
 <br/>
 
+<!--
+> [数据结构和算法](#nav_01)
+>> [线性结构](#nav_01_01)
+>>>* 数组行优先顺序
+>>>* 数组列优先顺序
+>>>* 对称矩阵
+>>>* 三角矩阵
+>>>* 对角矩阵
+>>>* 稀疏矩阵
+>>>* 广义表
+>>>* 单向链表
+>>>* 双向链表
+>>>* 循环链表
+>>>* 静态栈
+>>>* 动态栈
+>>>* 顺序队列
+>>>* 循环队列
+>>>* 链式队列
+>>>
+>> [树形结构](#nav_01_02)
+>>>* 二叉树
+>>>* 平衡二叉树（AVL树）
+>>>* 二叉查找树（BST）
+>>>* 完全二叉树
+>>>* 伸展树
+>>>* LSM 树
+>>>* 哈夫曼树
+>>>* 红黑树
+>>>* B树
+>>>* B+树
+>>>* B\*树
+>>>* 并查集
+>>>
+-->
 
+> [数据结构和算法](#nav_01)
+>> [线性结构](#nav_01_01)
+>> 
+>> [树形结构](#nav_01_02)
+>> 
+>> [堆](#nav_01_03)
+>> 
+>> [图](#nav_01_04)
+>> 
+>> [排序算法](#nav_01_05)
+>> 
+>> [查找算法](#nav_01_06)
+>> 
+>> [搜寻算法](#nav_01_07)
+>> 
+>> [推荐算法](#nav_01_08)
+>> 
+>> [矩阵](#nav_01_09)
+>> 
+>> [项目中常用算法](#nav_01_10)
+>> 
+>> [大厂必会算法](#nav_01_11)
+>> 
+> [C++项目](#nav_02)
+>> [经典项目](#nav_02_01)
+>> 
+>> [实战项目](#nav_02_02)
+
+<br/>
+
+<!--
 ##### [单向链表：初始化，添加，长度，判空，清空，获取结点，插入结点，删除结点](https://github.com/0voice/algorithm-structure/tree/master/%E5%8D%95%E9%93%BE%E8%A1%A8%E7%AE%97%E6%B3%95)
 
 ##### [双向链表：初始化，获得头结点，获得尾结点， 插入结点，删除结点](https://github.com/0voice/algorithm-structure/tree/master/%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8%E7%AE%97%E6%B3%95)
@@ -12,146 +81,314 @@
 ##### [红黑树：左旋，右旋，添加结点，删除结点，后继结点，查找](https://github.com/0voice/algorithm-structure/tree/master/%E7%BA%A2%E9%BB%91%E6%A0%91%E7%AE%97%E6%B3%95)
 
 ##### [B+树：创建b+树，插入结点，删除结点，合并结点，分裂结点，查询，遍历](https://github.com/0voice/algorithm-structure/tree/master/B%2B%E6%A0%91%E7%AE%97%E6%B3%95)
-
-<!--
-### 数据结构和算法
-
-<br/>
-
-#### 线性结构
-
-数组行优先顺序()
-
-数组列优先顺序
-
-对称矩阵
-
-三角矩阵
-
-对角矩阵
-
-稀疏矩阵
-
-广义表
-
-##### [单向链表：初始化，添加，长度，判空，清空，获取结点，插入结点，删除结点](https://github.com/0voice/algorithm-structure/tree/master/%E5%8D%95%E9%93%BE%E8%A1%A8%E7%AE%97%E6%B3%95)
-
-##### [双向链表：初始化，获得头结点，获得尾结点， 插入结点，删除结点](https://github.com/0voice/algorithm-structure/tree/master/%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8%E7%AE%97%E6%B3%95)
-
-##### [循环单链]
-
-##### [栈]
-
-##### [队列]
-
-<br/>
-
-#### 树形结构
-
-##### [二叉树：创建二叉树，插入树结点，前序遍历，中序遍历，后续遍历，二叉树深度，叶结点个数](https://github.com/0voice/algorithm-structure/tree/master/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%AE%97%E6%B3%95)
-
-##### [平衡二叉树（AVL树）]
-
-##### [伸展树]
-
-##### [哈夫曼树]
-
-##### [并查集]
-
-##### [红黑树：左旋，右旋，添加结点，删除结点，后继结点，查找](https://github.com/0voice/algorithm-structure/tree/master/%E7%BA%A2%E9%BB%91%E6%A0%91%E7%AE%97%E6%B3%95)
-
-##### [B+树：创建b+树，插入结点，删除结点，合并结点，分裂结点，查询，遍历](https://github.com/0voice/algorithm-structure/tree/master/B%2B%E6%A0%91%E7%AE%97%E6%B3%95)
-
-<br/>
-
-#### 堆
-
-##### [二叉堆]
-##### [左倾堆]
-##### [斜堆]
-##### [二项堆]
-##### [斐波那契堆]
-
-<br/>
-
-#### 图
-
-##### [深度优先搜索]
-
-##### [广度优先搜索]
-
-<br/>
-
-#### 排序算法
-
-##### [冒泡排序]
-
-##### [快速排序]
-
-##### [直接插入排序]
-
-##### [希尔排序]
-
-##### [选择排序]
-
-##### [堆排序]
-
-##### [归并排序]
-
-##### [桶排序]
-
-##### [基数排序]
-
-<br/>
-
-#### 查找算法
-
-##### [线性查找]
-##### [二分查找]
-##### [哈希查找]
-
-<br/>
-
-#### 其他算法
-
-##### [回溯]
-##### [递归]
-##### [动态规划]
-##### [滑动窗口]
-##### [分治法]
-##### [贪心算法]
--->
-<!--
-### C++经典项目
-
-##### C++ 实现太阳系行星系统
-##### C++ 实现运动目标的追踪
-##### C++ 实现银行排队服务模拟
-##### C++ 1小时入门增强现实技术
-##### C++ 代码实现线程池
-##### C++ 开发 Web 服务框架
-##### C++ 打造 Markdown 解析器
-##### C++ 实现高性能内存池
-##### C++ 实现简易 Docker 容器
-##### C++ 实现内存泄露检查器
-##### C++ 使用 Crypto++ 库实现常用的加密算法
-##### C++ 实现高性能 RTTI 库
-##### C++ 操作 redis 实现异步订阅和发布
-##### C++ 实现基数树 radix tree
-##### C++ 基于OpenCV实现实时监控和运动检测记录
 -->
 
+## <h2 id="nav_01">🎵 数据结构和算法</h2>
+
+### <h3 id="nav_01_01">线性结构</h3> 
+
+![image](https://user-images.githubusercontent.com/87458342/128833067-a42135c2-3ace-45f4-92a6-a954b71446e2.png)
+
+##### [数组行优先顺序](https://github.com/0voice/algorithm-structure/blob/master/数组行优先顺序/行优先.c)
+
+##### [数组列优先顺序](https://github.com/0voice/algorithm-structure/blob/master/数组列优先顺序/列优先.c)
+
+##### [广义表](https://github.com/0voice/algorithm-structure/blob/master/广义表/广义表.c)
+
+##### [单向链表：初始化，添加，长度，判空，清空，获取结点，插入结点，删除结点](https://github.com/0voice/algorithm-structure/tree/master/单链表算法)
+
+##### [双向链表：初始化，获得头结点，获得尾结点， 插入结点，删除结点](https://github.com/0voice/algorithm-structure/tree/master/双向链表算法)
+
+##### [循环链表](https://github.com/0voice/algorithm-structure/blob/master/循环链表算法/list_xzy.c)
+
+##### [静态栈：初始化，进栈，出栈](https://github.com/0voice/algorithm-structure/blob/master/静态栈/静态栈.c)
+
+##### [动态栈：初始化，进栈，出栈](https://github.com/0voice/algorithm-structure/blob/master/动态栈/动态栈.c)
+
+##### [顺序队列](https://github.com/0voice/algorithm-structure/blob/master/顺序队列/顺序队列.c)
+
+##### [循环队列](https://github.com/0voice/algorithm-structure/blob/master/循环队列/循环队列.c)
+
+##### [链式队列](https://github.com/0voice/algorithm-structure/blob/master/链式队列/链式队列.c)
+
+<br/>
+
+### <h3 id="nav_01_02">树形结构</h3>
+
+![image](https://user-images.githubusercontent.com/87458342/128842161-8ada43c4-3fc7-420e-b1e5-6f93307dea7e.png)
+
+##### [二叉树：创建二叉树，插入树结点，前序遍历，中序遍历，后续遍历，二叉树深度，叶结点个数](https://github.com/0voice/algorithm-structure/tree/master/二叉树算法)
+
+##### [平衡二叉树（AVL树）](https://github.com/0voice/algorithm-structure/blob/master/平衡二叉树算法/AVLtree.c)
+
+##### [二叉查找树（BST）](https://github.com/0voice/algorithm-structure/blob/master/二叉查找树算法/BST.c)
+
+##### [完全二叉树](https://github.com/0voice/algorithm-structure/blob/master/完全二叉树算法/CBT.c)
+
+##### [伸展树](https://github.com/0voice/algorithm-structure/blob/master/伸展树算法/splay_tree.c)
+
+##### [LSM 树](https://github.com/0voice/algorithm-structure/blob/master/LSM树算法/LSM.c)
+
+##### [哈夫曼树](https://github.com/0voice/algorithm-structure/blob/master/哈夫曼树算法/huffman_tree.c)
+
+##### [2-3-4树](https://github.com/0voice/algorithm-structure/blob/master/2-3-4树算法/2-3-4.c)
+
+##### [红黑树：左旋，右旋，添加结点，删除结点，后继结点，查找](https://github.com/0voice/algorithm-structure/tree/master/红黑树算法)
+
+##### [B树](https://github.com/0voice/algorithm-structure/blob/master/B树算法/b_tree.c)
+
+##### [B+树：创建b+树，插入结点，删除结点，合并结点，分裂结点，查询，遍历](https://github.com/0voice/algorithm-structure/tree/master/B+树算法)
+
+##### [B\*树](https://github.com/0voice/algorithm-structure/blob/master/B*树算法/b_star_tree.c)
+
+##### [并查集](https://github.com/0voice/algorithm-structure/blob/master/并查集/并查集.c)
+
+<br/>
+
+### <h3 id="nav_01_03">堆</h3>
+
+![image](https://user-images.githubusercontent.com/87458342/128842022-228783af-ddca-45b3-afba-cd0b41f4076c.png)
+
+##### [二叉堆](https://github.com/0voice/algorithm-structure/blob/master/二叉堆/二叉堆.c)
+##### [左倾堆](https://github.com/0voice/algorithm-structure/blob/master/左倾堆/左倾堆.c)
+##### [斜堆](https://github.com/0voice/algorithm-structure/blob/master/斜堆/斜堆.c)
+##### [二项堆](https://github.com/0voice/algorithm-structure/blob/master/二项堆/二项堆.c)
+##### [斐波那契堆](https://github.com/0voice/algorithm-structure/blob/master/斐波那契堆/斐波那契堆.c)
+
+<br/>
+
+### <h3 id="nav_01_04">图</h3>
+
+![image](https://user-images.githubusercontent.com/87458342/128847587-8e909dda-6d2f-4e2c-9d17-acf0defa0d3b.png)
+
+##### [有向图](https://github.com/0voice/algorithm-structure/blob/master/图/有向图/有向图.c)
+##### [无向图](https://github.com/0voice/algorithm-structure/blob/master/图/无向图/无向图.c)
+##### [无权图](https://github.com/0voice/algorithm-structure/blob/master/图/无权图/无权图.c)
+##### [带权图](https://github.com/0voice/algorithm-structure/blob/master/图/带权图/带权图.c)
+##### [完全图](https://github.com/0voice/algorithm-structure/blob/master/图/完全图/完全图.c)
+
+##### [深度优先搜索](https://github.com/0voice/algorithm-structure/blob/master/深度优先搜索/深度优先搜索.c)
+
+##### [广度优先搜索](https://github.com/0voice/algorithm-structure/blob/master/广度优先搜索/广度优先搜索.c)
+
+##### [宽度优先搜索](https://github.com/0voice/algorithm-structure/blob/master/宽度优先搜索/宽度优先搜索.c)
+
+##### [迭代加深搜索（ID搜索）](https://github.com/0voice/algorithm-structure/blob/master/迭代加深搜索/迭代加深搜索.c)
+
+##### [约束满足搜索](https://github.com/0voice/algorithm-structure/blob/master/约束满足搜索/约束满足搜索.c)
+
+##### [爬山算法](https://github.com/0voice/algorithm-structure/blob/master/爬山算法/爬山算法.c)
+
+##### [模拟退火算法](https://github.com/0voice/algorithm-structure/blob/master/模拟退火算法/模拟退火算法.c)
+
+<br/>
+
+### <h3 id="nav_01_05">排序算法</h3>
+
+![image](https://user-images.githubusercontent.com/87458342/128860525-097f4434-0632-4e57-ad34-5bd773799c45.png)
+
+#### 算法复杂度
+
+排序算法   |-       |-       |-       |-       |-       
+:-------- |:-------|:-------|:-------|:-------|:-------
+插入排序   |O(n2)   |O(n2)   |O(n)    |O(1)    |稳定
+希尔排序   |O(n1.3) |O(n2)   |O(n)    |O(1)    |不稳定
+选择排序   |O(n2)   |O(n2)   |O(n2)   |O(1)    |不稳定
+堆排序     |O(nlog2n)|O(nlog2n)|O(nlog2n)|O(1)    |不稳定
+冒泡排序   |O(n2)   |O(n2)   |O(n)    |O(1)    |稳定
+快速排列   |O(nlog2n)|O(n2)   |O(nlog2n)|O(nlog2n)|不稳定
+归并排序   |O(nlog2n)|O(nlog2n)|O(nlog2n)    |O(n)    |稳定
+计数排序   |O(n+k)   |O(n+k)   |O(n+k)    |O(n+k)    |稳定
+桶排序     |O(n+k)   |O(n2)   |O(n)    |O(n+k)    |稳定
+计数排序   |O(n\*k)  |O(n\*k) |O(n\*k)  |O(n+k)    |稳定
+
+
+##### [冒泡排序](https://github.com/0voice/algorithm-structure/blob/master/冒泡排序算法/BubbleSortMain.c)
+
+##### [插入排序](https://github.com/0voice/algorithm-structure/blob/master/插入排序算法/InsertSort.c)
+
+##### [希尔排序](https://github.com/0voice/algorithm-structure/blob/master/希尔排序算法/ShellSort.c)
+
+##### [选择排序](https://github.com/0voice/algorithm-structure/blob/master/选择排序算法/selectsort.c)
+
+##### [堆排序](https://github.com/0voice/algorithm-structure/blob/master/堆排序算法/heap_sort.c)
+
+##### [归并排序](https://github.com/0voice/algorithm-structure/blob/master/归并排序算法/mergesort.c)
+
+##### [桶排序](https://github.com/0voice/algorithm-structure/blob/master/桶排序/bin_sort_main.c)
+
+##### [基数排序](https://github.com/0voice/algorithm-structure/blob/master/基数排序算法/DigitSort.c)
+
+##### [插入排序](https://github.com/0voice/algorithm-structure/blob/master/插入排序算法/InsertSort.c)
+
+##### [计数排序](https://github.com/0voice/algorithm-structure/blob/master/计数排序算法/CountSort.c)
+
+##### [快速排序1](https://github.com/0voice/algorithm-structure/blob/master/快速排序算法/quick_sort.c)
+
+##### [快速排序2](https://github.com/0voice/algorithm-structure/blob/master/快速排序2/快速排序法(2).c)
+
+##### [快速排序3](https://github.com/0voice/algorithm-structure/blob/master/快速排序3/快速排序法(3).c)
+
+##### [拓扑排序](https://github.com/0voice/algorithm-structure/blob/master/拓扑排序算法/拓扑排序.c)
+
+<br/>
+
+### <h3 id="nav_01_06">查找算法</h3>
+
+![image](https://user-images.githubusercontent.com/87458342/128861307-8ed4884a-d42c-486d-8c0d-746008381033.png)
+
+##### [线性查找](https://github.com/0voice/algorithm-structure/blob/master/线性查找/线性查找.c)
+##### [顺序查找](https://github.com/0voice/algorithm-structure/blob/master/顺序查找/顺序查找.c)
+##### [二分查找](https://github.com/0voice/algorithm-structure/blob/master/二分查找算法/BinarySearch.c)
+##### [插值查找](https://github.com/0voice/algorithm-structure/blob/master/插值查找/插值查找.c)
+##### [斐波那契查找](https://github.com/0voice/algorithm-structure/blob/master/斐波那契查找/斐波那契查找.c)
+##### [树表查找](https://github.com/0voice/algorithm-structure/blob/master/树表查找/树表查找.c)
+##### [分块查找](https://github.com/0voice/algorithm-structure/blob/master/分块查找/分块查找.c)
+##### [哈希查找](https://github.com/0voice/algorithm-structure/blob/master/哈希查找/哈希查找.c)
+
+<br/>
+
+### <h3 id="nav_01_07">搜寻算法</h3>
+
+![image](https://user-images.githubusercontent.com/87458342/128861753-a0420755-268f-4e9b-8174-10d17980f66a.png)
+
+##### [二分搜寻法](https://github.com/0voice/algorithm-structure/blob/master/二分搜寻法/二分搜寻法.c)
+##### [循序搜寻法](https://github.com/0voice/algorithm-structure/blob/master/循序搜寻法/循序搜寻法.c)
+##### [插补搜寻法](https://github.com/0voice/algorithm-structure/blob/master/插补搜寻法/插补搜寻法.c)
+##### [费氏搜寻法](https://github.com/0voice/algorithm-structure/blob/master/费氏搜寻法/费氏搜寻法.c)
+
+<br/>
+
+### <h3 id="nav_01_08">推荐算法</h3>
+
+![image](https://user-images.githubusercontent.com/87458342/128861904-39a82f9a-b156-43f5-8ae4-4559b975f8b6.png)
+
+##### [协同过滤推荐算法](https://github.com/0voice/algorithm-structure/tree/master/推荐算法/协同过滤推荐算法)
+##### [基于内容的推荐算法](https://github.com/0voice/algorithm-structure/tree/master/推荐算法/基于内容的推荐算法)
+##### [混合推荐算法](https://github.com/0voice/algorithm-structure/tree/master/推荐算法/混合推荐算法)
+##### [流行度推荐算法](https://github.com/0voice/algorithm-structure/tree/master/推荐算法/流行度推荐算法)
+
+<br/>
+
+### <h3 id="nav_01_09">矩阵</h3>
+
+![image](https://user-images.githubusercontent.com/87458342/128863100-a48df994-82a4-494c-9331-584850a64669.png)
+
+##### [对称矩阵](https://github.com/0voice/algorithm-structure/blob/master/对称矩阵/对称矩阵.c)
+##### [对角矩阵](https://github.com/0voice/algorithm-structure/blob/master/对角矩阵/对角矩阵.c)
+##### [稀疏矩阵](https://github.com/0voice/algorithm-structure/blob/master/稀疏矩阵/稀疏矩阵.c)
+##### [稠密矩阵](https://github.com/0voice/algorithm-structure/blob/master/稠密矩阵/稠密矩阵.c)
+##### [三角矩阵](https://github.com/0voice/algorithm-structure/blob/master/三角矩阵/三角矩阵.c)
+##### [多维矩阵转一维矩阵](https://github.com/0voice/algorithm-structure/blob/master/多维矩阵转一维矩阵/多维矩阵转一维矩阵.c)
+##### [矩阵连乘 动态规划迭代实现](https://github.com/0voice/algorithm-structure/blob/master/矩阵连乘%20动态规划迭代实现/矩阵连乘%20动态规划迭代实现.c)
+##### [矩阵连乘 备忘录递归实现](https://github.com/0voice/algorithm-structure/blob/master/矩阵连乘%20备忘录递归实现/矩阵连乘%20备忘录递归实现.c)
+<br/>
+
+### <h3 id="nav_01_10">项目中常用算法</h3>
+
+![image](https://user-images.githubusercontent.com/87458342/128868194-ffb5db50-e9d4-40b7-b76d-9566be4a1f6b.png)
+
+##### [产生可能的集合](https://github.com/0voice/algorithm-structure/blob/master/产生可能的集合/产生可能的集合.c)
+##### [后序式](https://github.com/0voice/algorithm-structure/blob/master/后序式/后序式.c)
+##### [格雷码](https://github.com/0voice/algorithm-structure/blob/master/格雷码/格雷码.c)
+##### [完美数](https://github.com/0voice/algorithm-structure/blob/master/完美数/完美数.c)
+##### [得分排行](https://github.com/0voice/algorithm-structure/blob/master/得分排行/得分排行.c)
+##### [数字拆解](https://github.com/0voice/algorithm-structure/blob/master/数字拆解/数字拆解.c)
+##### [筛选求质数](https://github.com/0voice/algorithm-structure/blob/master/筛选求质数/Eratosthenes.c)
+##### [阿姆斯壮数](https://github.com/0voice/algorithm-structure/blob/master/阿姆斯壮数/阿姆斯壮数.c)
+##### [重叠子问题的递归最优解](https://github.com/0voice/algorithm-structure/blob/master/重叠子问题的递归最优解/重叠子问题的递归最优解.c)
+##### [长PI](https://github.com/0voice/algorithm-structure/blob/master/长PI/长PI.c)
+##### [大数运算](https://github.com/0voice/algorithm-structure/blob/master/大数运算/大数运算.c)
+##### [最大m子段问题](https://github.com/0voice/algorithm-structure/blob/master/最大m子段问题/最大m子段问题.c)
+##### [最大子段和问题的简单算法](https://github.com/0voice/algorithm-structure/blob/master/最大子段和问题的简单算法/最大子段和问题的简单算法.c)
+##### [最大访客数](https://github.com/0voice/algorithm-structure/blob/master/最大访客数/最大访客数.c)
+##### [最长公共子序列问题](https://github.com/0voice/algorithm-structure/blob/master/最长公共子序列问题/最长公共子序列问题.c)
+##### [最小生成树](https://github.com/0voice/algorithm-structure/tree/master/最小生成树)
+##### [最短路径算法](https://github.com/0voice/algorithm-structure/blob/master/最短路径算法/最短路径算法.c)
+
+<br/>
+
+### <h3 id="nav_01_11">大厂必会算法</h3>
+
+![image](https://user-images.githubusercontent.com/87458342/128874206-11b868eb-020b-4fa2-a523-09d3352955df.png)
+
+##### [排列组合](https://github.com/0voice/algorithm-structure/blob/master/排列组合/排列组合.c)
+##### [乱数排列](https://github.com/0voice/algorithm-structure/blob/master/乱数排列/乱数排列.c)
+##### [费列数列](https://github.com/0voice/algorithm-structure/blob/master/费列数列/Fibonacci.c)
+##### [布隆过滤器](https://github.com/0voice/algorithm-structure/blob/master/布隆过滤器/bloom.c)
+##### [RSA加密算法](https://github.com/0voice/algorithm-structure/blob/master/RSA加密算法/rsa.c)
+##### [回溯算法](https://github.com/0voice/algorithm-structure/blob/master/回溯算法/回溯算法.c)
+##### [递归算法](https://github.com/0voice/algorithm-structure/blob/master/递归算法/递归算法.c)
+##### [分治算法](https://github.com/0voice/algorithm-structure/blob/master/分治算法/分治算法.c)
+##### [贪心算法](https://github.com/0voice/algorithm-structure/blob/master/贪心算法/greedy.c)
+##### [KMP算法](https://github.com/0voice/algorithm-structure/blob/master/KMP算法/kmp.c)
+##### [剪枝算法](https://github.com/0voice/algorithm-structure/blob/master/剪枝算法/剪枝算法.c)
+##### [滑动窗口算法](https://github.com/0voice/algorithm-structure/blob/master/滑动窗口算法/滑动窗口.c)
+##### [朴素贝叶斯算法](https://github.com/0voice/algorithm-structure/blob/master/朴素贝叶斯算法/贝叶斯.c)
+##### [动态规划算法](https://github.com/0voice/algorithm-structure/blob/master/动态规划算法/最大子段和问题的动态规划算法.c)
+
+<br/>
+<br/>
+
+## <h2 id="nav_02">C++项目</h2>
+
+### <h3 id="nav_02_01">经典算法</h3>
+
+![image](https://user-images.githubusercontent.com/87458342/128875066-bd5babf7-e0ab-41a7-8e71-0a1b925aa9f2.png)
+
+##### [背包问题](https://github.com/0voice/algorithm-structure/blob/master/背包问题/Knapsack%20Problem.c)
+##### [河内之塔](https://github.com/0voice/algorithm-structure/blob/master/河内之塔/Hanoi.c)
+##### [生命游戏](https://github.com/0voice/algorithm-structure/blob/master/生命游戏/生命游戏.c)
+##### [八枚银币](https://github.com/0voice/algorithm-structure/blob/master/八枚银币/八枚银币.c)
+##### [八皇后](https://github.com/0voice/algorithm-structure/blob/master/八皇后/八皇后.c)
+##### [三色棋](https://github.com/0voice/algorithm-structure/blob/master/三色棋/hree-Color_Flag.c)
+##### [骑士走棋盘](https://github.com/0voice/algorithm-structure/blob/master/骑士走棋盘/Knight_tour.c)
+##### [老鼠走迷宫1](https://github.com/0voice/algorithm-structure/blob/master/老鼠走迷宫1/老鼠走迷官(1).c)
+##### [老鼠走迷宫2](https://github.com/0voice/algorithm-structure/blob/master/老鼠走迷宫2/老鼠走迷官(2).c)
+##### [魔方阵1](https://github.com/0voice/algorithm-structure/blob/master/魔方阵1/魔方阵(1).c)
+##### [魔方阵2](https://github.com/0voice/algorithm-structure/blob/master/魔方阵2/魔方阵(2).c)
+##### [魔方阵3](https://github.com/0voice/algorithm-structure/blob/master/魔方阵3/魔方阵(3).c)
+
+<br/>
+
+### <h3 id="nav_02_02">实战项目</h3>
+##### 实现太阳系行星系统
+##### 实现运动目标的追踪
+##### 实现银行排队服务模拟
+##### 1小时入门增强现实技术
+##### 代码实现线程池
+##### 开发 Web 服务框架
+##### 打造 Markdown 解析器
+##### 实现高性能内存池
+##### 实现简易 Docker 容器
+##### 实现内存泄露检查器
+##### 使用 Crypto++ 库实现常用的加密算法
+##### 实现高性能 RTTI 库
+##### 操作 redis 实现异步订阅和发布
+##### 实现基数树 radix tree
+##### 基于OpenCV实现实时监控和运动检测记录
+
+
+
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
 
-<h3 >联系我们</h3> 
+<h2 id="22">🤝 鸣谢</h2>
 
----
+##### 为了让我们的repo内容更加的丰富，更加的专业。欢迎大家贡献patch，希望大家在issue里面出谋划策，我们期待你的加入。
 
-**每天晚上8点免费技术分享直播，扫码即可加入，小姐姐给你发每天的直播链接，备注“github算法”** <br/>
-**直播内容：[C/C++，Linux，Nginx，ZeroMQ，MySQL，Redis，fastdfs，MongoDB，ZK，流媒体，CDN，P2P，K8S，Docker，TCP/IP，协程，DPDK等等多个知识点技术分享](https://ke.qq.com/course/417774?flowToken=1037127)**
 
-![image](https://www.0voice.com/uiwebsite/img/barcode/cz.jpg)
+<h2 id="22">联系专栏</h2> 
+
+#### 零声教育，专注于c/c++Linux后台服务器开发架构技术学习提升。<br>
+每天晚上8点【免费技术直播】：[分享Linux，Nginx，ZeroMQ，MySQL，Redis，fastdfs，MongoDB，ZK，流媒体，CDN，P2P，K8S，Docker，TCP/IP，协程，DPDK等技术内容，立即学习。](https://ke.qq.com/course/417774?flowToken=1037127)
+  
+#### 免费订阅直播链接【QQ：602878196, 微信：baby602878196】即可领取对标腾讯T9职级技术要求的后台开发学习图谱。
+
+![大纲部分图.png](https://img11.360buyimg.com/ddimg/jfs/t1/37229/14/15620/149708/60e6a78eE5241eec1/d0f0c9d9aa1e4d99.png)
+
+#### 微信扫码联系VIP课程咨询贝贝老师，免费领取更多福利干货资料【备注：GitHub算法】
+![barcode](https://user-images.githubusercontent.com/87458342/128681533-a1549d1a-2ccb-4e66-971f-1bd6f512913c.png)

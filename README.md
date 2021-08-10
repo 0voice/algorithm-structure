@@ -3,6 +3,10 @@
 # 2021年最新总结500个常用数据结构，算法，算法导论，面试常用，大厂高级工程师总结
 
 </div>
+<!--
+<div align=center>
+<img src="https://i.giphy.com/media/ly5Tyr9gHtPgdVkh44/giphy.gif" width="320" alt="小鸟">
+</div>
 
 <br/>
 
@@ -202,18 +206,25 @@
 桶排序     |O(n+k)   |O(n2)   |O(n)    |O(n+k)    |稳定
 计数排序   |O(n\*k)  |O(n\*k) |O(n\*k)  |O(n+k)    |稳定
 
+#### 算法动图显示
 
 ##### [冒泡排序](https://github.com/0voice/algorithm-structure/blob/master/冒泡排序算法/BubbleSortMain.c)
+![image](https://img-blog.csdnimg.cn/20190517142259572.gif)
 
 ##### [插入排序](https://github.com/0voice/algorithm-structure/blob/master/插入排序算法/InsertSort.c)
+![image](https://img-blog.csdnimg.cn/20190517142521855.gif)
 
 ##### [希尔排序](https://github.com/0voice/algorithm-structure/blob/master/希尔排序算法/ShellSort.c)
+![image](https://img-blog.csdnimg.cn/20190517142611755.gif)
 
 ##### [选择排序](https://github.com/0voice/algorithm-structure/blob/master/选择排序算法/selectsort.c)
+![image](https://img-blog.csdnimg.cn/20190517142411197.gif)
 
 ##### [堆排序](https://github.com/0voice/algorithm-structure/blob/master/堆排序算法/heap_sort.c)
+![image](https://img-blog.csdnimg.cn/20190517142825891.gif)
 
 ##### [归并排序](https://github.com/0voice/algorithm-structure/blob/master/归并排序算法/mergesort.c)
+![image](https://img-blog.csdnimg.cn/20190517142701685.gif)
 
 ##### [桶排序](https://github.com/0voice/algorithm-structure/blob/master/桶排序/bin_sort_main.c)
 
@@ -228,6 +239,7 @@
 ##### [快速排序2](https://github.com/0voice/algorithm-structure/blob/master/快速排序2/快速排序法(2).c)
 
 ##### [快速排序3](https://github.com/0voice/algorithm-structure/blob/master/快速排序3/快速排序法(3).c)
+![image](https://img-blog.csdnimg.cn/20190517142745730.gif)
 
 ##### [拓扑排序](https://github.com/0voice/algorithm-structure/blob/master/拓扑排序算法/拓扑排序.c)
 

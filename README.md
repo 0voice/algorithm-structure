@@ -231,7 +231,8 @@
 ![image](https://img-blog.csdnimg.cn/20190517142701685.gif)
 
 ##### [桶排序](https://github.com/0voice/algorithm-structure/blob/master/桶排序/bin_sort_main.c)
-![image](https://user-images.githubusercontent.com/87458342/128964956-08109273-3a90-463e-aec8-fe9c6adfbb0a.png)
+<!--![image](https://user-images.githubusercontent.com/87458342/128964956-08109273-3a90-463e-aec8-fe9c6adfbb0a.png)-->
+![image](https://www.weixiuzhan.cn/file/upload/2020/5/7fqQNr.gif)
 
 ##### [基数排序](https://github.com/0voice/algorithm-structure/blob/master/基数排序算法/DigitSort.c)
 ![image](https://img-blog.csdnimg.cn/20190517143109965.gif)

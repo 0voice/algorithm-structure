@@ -506,7 +506,8 @@
 ##### 线性同余法产生随机数
 
 ### <h3 id="nav_02_04">🧲 开源项目 </h3>
-##### [MiGo开源掌机]()
+##### [MiGo开源掌机](https://github.com/0voice/algorithm-structure/tree/master/开源项目/MiGo开源掌机)
+##### [game-of-life](https://github.com/0voice/algorithm-structure/tree/master/开源项目/game-of-life)
 
 <br/>
 <br/>

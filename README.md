@@ -509,8 +509,28 @@
 
 ### <h3 id="nav_02_04">🧲 开源项目 </h3>
 ##### [MiGo开源掌机](https://github.com/0voice/algorithm-structure/tree/master/开源项目/MiGo开源掌机)
+##### [2048游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/2048游戏)
+##### [21点游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/21点游戏)
 ##### [game-of-life](https://github.com/0voice/algorithm-structure/tree/master/开源项目/game-of-life)
+##### [snake_game](https://github.com/0voice/algorithm-structure/tree/master/开源项目/snake_game)
+##### [中国象棋](https://github.com/0voice/algorithm-structure/tree/master/开源项目/中国象棋)
+##### [五子棋](https://github.com/0voice/algorithm-structure/tree/master/开源项目/五子棋)
+##### [井字棋](https://github.com/0voice/algorithm-structure/tree/master/开源项目/井字棋)
+##### [俄罗斯方块](https://github.com/0voice/algorithm-structure/tree/master/开源项目/俄罗斯方块)
+##### [弹弹乐](https://github.com/0voice/algorithm-structure/tree/master/开源项目/弹弹乐)
+##### [弹球游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/弹球游戏)
+##### [成语接龙](https://github.com/0voice/algorithm-structure/tree/master/开源项目/成语接龙)
+##### [打砖块游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/打砖块游戏)
+##### [打飞机游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/打飞机游戏)
+##### [扫雷游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/扫雷游戏)
 ##### [推箱子](https://github.com/0voice/algorithm-structure/tree/master/开源项目/推箱子)
+##### [文字冒险游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/文字冒险游戏)
+##### [猜拳游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/猜拳游戏)
+##### [猜数游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/猜数游戏)
+##### [皇帝和后宫](https://github.com/0voice/algorithm-structure/tree/master/开源项目/皇帝和后宫)
+##### [老虎机游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/老虎机游戏)
+##### [记忆游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/记忆游戏)
+##### [贪吃蛇(穿墙)](https://github.com/0voice/algorithm-structure/tree/master/开源项目/贪吃蛇(穿墙))
 ##### [贪吃蛇](https://github.com/0voice/algorithm-structure/tree/master/开源项目/贪吃蛇)
 
 <br/>

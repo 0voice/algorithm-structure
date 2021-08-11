@@ -75,7 +75,7 @@
 >>
 >> [🏮 经典项目](#nav_02_03)
 >> 
->> [🧲 开源项目](#nav_02_04)
+>> [🧲 经典游戏](#nav_02_04)
 
 <br/>
 
@@ -565,7 +565,7 @@
 
 <br/>
 
-### <h3 id="nav_02_04">🧲 开源项目 </h3>
+### <h3 id="nav_02_04">🧲 经典游戏 </h3>
 ##### [MiGo开源掌机](https://github.com/0voice/algorithm-structure/tree/master/开源项目/MiGo开源掌机)
 ##### [2048游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/2048游戏)
 ##### [21点游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/21点游戏)

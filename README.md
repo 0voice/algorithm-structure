@@ -243,6 +243,15 @@
 ![image](https://img-blog.csdnimg.cn/20190517142745730.gif)
 
 ##### [拓扑排序](https://github.com/0voice/algorithm-structure/blob/master/拓扑排序算法/拓扑排序.c)
+拓扑排序步骤：
+1. 删除1或2输出
+  ![image](https://user-images.githubusercontent.com/87458342/128965579-98f47154-f21d-4d49-a45b-cc1a3e59f182.png)
+2. 删除2或3以及对应边
+  ![image](https://user-images.githubusercontent.com/87458342/128965682-9d91ced1-29be-4caa-87b0-85eb02695160.png)
+3. 删除3或者4以及对应边
+  ![image](https://user-images.githubusercontent.com/87458342/128965721-6e7246ea-2f10-42c9-8599-1c3086519f68.png)
+4. 重复以上规则步骤
+  ![image](https://user-images.githubusercontent.com/87458342/128965777-e76c8231-6998-477c-987b-1dfe240be6df.png)
 
 <br/>
 

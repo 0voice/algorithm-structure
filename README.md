@@ -150,6 +150,9 @@
 ##### [B\*树](https://github.com/0voice/algorithm-structure/blob/master/B*树算法/b_star_tree.c)
 
 ##### [并查集](https://github.com/0voice/algorithm-structure/blob/master/并查集/并查集.c)
+* 并查集主要用于解决分组问题，它用来管理一系列不想交的集合，支持如下两种操作：
+  * 合并：把两个不相交的集合合并为一个集合
+  * 查询：查询某个元素的根节点，可以判断两个元素的根节点是否相等判断两个元素是否在一个并查集中。
 
 <br/>
 
@@ -170,7 +173,14 @@
 ![image](https://user-images.githubusercontent.com/87458342/128847587-8e909dda-6d2f-4e2c-9d17-acf0defa0d3b.png)
 
 ##### [有向图](https://github.com/0voice/algorithm-structure/blob/master/图/有向图/有向图.c)
+* 如果边是有方向的则称为有向图
+* ![image](https://user-images.githubusercontent.com/87458342/129164620-81651b53-6209-4aaa-bf28-ef45bd297a78.png)
+
 ##### [无向图](https://github.com/0voice/algorithm-structure/blob/master/图/无向图/无向图.c)
+* 如果边没有方向则称为无向图
+* ![image](https://user-images.githubusercontent.com/87458342/129164658-f21f198c-30e8-4660-83d9-1425a8ebb882.png)
+
+
 ##### [无权图](https://github.com/0voice/algorithm-structure/blob/master/图/无权图/无权图.c)
 ##### [带权图](https://github.com/0voice/algorithm-structure/blob/master/图/带权图/带权图.c)
 ##### [完全图](https://github.com/0voice/algorithm-structure/blob/master/图/完全图/完全图.c)

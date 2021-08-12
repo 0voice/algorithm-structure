@@ -102,6 +102,7 @@
 ##### [数组列优先顺序](https://github.com/0voice/algorithm-structure/blob/master/数组列优先顺序/列优先.c)
 
 ##### [广义表](https://github.com/0voice/algorithm-structure/blob/master/广义表/广义表.c)
+![image](https://user-images.githubusercontent.com/87458342/129167584-d126ac2d-6ce5-4b95-b4ed-45b8bbfcc8ba.png)
 
 ##### [单向链表：初始化，添加，长度，判空，清空，获取结点，插入结点，删除结点](https://github.com/0voice/algorithm-structure/tree/master/单链表算法)
 
@@ -114,10 +115,16 @@
 ##### [动态栈：初始化，进栈，出栈](https://github.com/0voice/algorithm-structure/blob/master/动态栈/动态栈.c)
 
 ##### [顺序队列](https://github.com/0voice/algorithm-structure/blob/master/顺序队列/顺序队列.c)
+![image](https://user-images.githubusercontent.com/87458342/129168275-74c13616-2c17-4e4b-b2fa-01c9c3af887e.png)
 
 ##### [循环队列](https://github.com/0voice/algorithm-structure/blob/master/循环队列/循环队列.c)
+![image](https://user-images.githubusercontent.com/87458342/129166726-69ec0a21-680b-4ed9-8ac6-5f8ed4b5ed0f.png)
 
 ##### [链式队列](https://github.com/0voice/algorithm-structure/blob/master/链式队列/链式队列.c)
+
+![image](https://img-blog.csdnimg.cn/20191220192454210.gif)
+
+![image](https://img-blog.csdnimg.cn/20191220192817457.gif)
 
 <br/>
 
@@ -153,6 +160,7 @@
 * 并查集主要用于解决分组问题，它用来管理一系列不想交的集合，支持如下两种操作：
   * 合并：把两个不相交的集合合并为一个集合
   * 查询：查询某个元素的根节点，可以判断两个元素的根节点是否相等判断两个元素是否在一个并查集中。
+![image](https://user-images.githubusercontent.com/87458342/129165679-a5925115-4a77-4b3e-8d34-88a0d3c4daab.png)
 
 <br/>
 

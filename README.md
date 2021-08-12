@@ -156,7 +156,7 @@
 
 ##### [B+树：创建b+树，插入结点，删除结点，合并结点，分裂结点，查询，遍历](https://github.com/0voice/algorithm-structure/tree/master/B+树算法)
 
-##### [B\*树](https://github.com/0voice/algorithm-structure/blob/master/B*树算法/b_star_tree.c)
+##### [B\*树](https://github.com/0voice/algorithm-structure/blob/master/B*树算法)
 
 ##### [并查集](https://github.com/0voice/algorithm-structure/blob/master/并查集)
 

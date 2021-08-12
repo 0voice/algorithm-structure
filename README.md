@@ -102,7 +102,7 @@
 ##### [数组列优先顺序](https://github.com/0voice/algorithm-structure/blob/master/数组列优先顺序/列优先.c)
 
 ##### [广义表](https://github.com/0voice/algorithm-structure/blob/master/广义表/广义表.c)
-![image](https://user-images.githubusercontent.com/87458342/129167584-d126ac2d-6ce5-4b95-b4ed-45b8bbfcc8ba.png)
+![image](https://user-images.githubusercontent.com/87458342/129170160-43b37b0e-3f67-4984-a9b6-533f45177ce7.png)
 
 ##### [单向链表：初始化，添加，长度，判空，清空，获取结点，插入结点，删除结点](https://github.com/0voice/algorithm-structure/tree/master/单链表算法)
 

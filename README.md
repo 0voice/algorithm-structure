@@ -156,11 +156,7 @@
 
 ##### [B\*树](https://github.com/0voice/algorithm-structure/blob/master/B*树算法/b_star_tree.c)
 
-##### [并查集](https://github.com/0voice/algorithm-structure/blob/master/并查集/并查集.c)
-* 并查集主要用于解决分组问题，它用来管理一系列不想交的集合，支持如下两种操作：
-  * 合并：把两个不相交的集合合并为一个集合
-  * 查询：查询某个元素的根节点，可以判断两个元素的根节点是否相等判断两个元素是否在一个并查集中。
-![image](https://user-images.githubusercontent.com/87458342/129165679-a5925115-4a77-4b3e-8d34-88a0d3c4daab.png)
+##### [并查集](https://github.com/0voice/algorithm-structure/blob/master/并查集/README.md)
 
 <br/>
 

@@ -33,3 +33,11 @@ int main()
         printf("fish[%d]=%d\n", i, fish[i]);
     return 0;
 }
+
+//运行结果
+
+//fish[1]=3121
+//fish[2]=2496
+//fish[3]=1996
+//fish[4]=1596
+//fish[5]=1276

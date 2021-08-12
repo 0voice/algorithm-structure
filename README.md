@@ -156,7 +156,7 @@
 
 ##### [B\*树](https://github.com/0voice/algorithm-structure/blob/master/B*树算法/b_star_tree.c)
 
-##### [并查集](https://github.com/0voice/algorithm-structure/blob/master/并查集/README.md)
+##### [并查集](https://github.com/0voice/algorithm-structure/blob/master/并查集)
 
 <br/>
 

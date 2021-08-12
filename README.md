@@ -420,7 +420,7 @@
 ##### [马踏棋盘](https://github.com/0voice/algorithm-structure/blob/master/经典项目/README.md)
 ##### [在字符串的指定位置插入字符](https://github.com/0voice/algorithm-structure/blob/master/经典项目/README.md)
 ##### [删除星号](https://github.com/0voice/algorithm-structure/blob/master/经典项目/README.md)
-##### [实现魔方阵C语言矩阵转置](https://github.com/0voice/algorithm-structure/blob/master/经典项目/README.md)
+##### [魔方阵](https://github.com/0voice/algorithm-structure/blob/master/经典项目/README.md)
 ##### [农夫过河](https://github.com/0voice/algorithm-structure/blob/master/经典项目/README.md)
 ##### [平分7筐鱼C语言邮票组合](https://github.com/0voice/algorithm-structure/blob/master/经典项目/README.md)
 ##### [选美比赛](https://github.com/0voice/algorithm-structure/blob/master/经典项目/README.md)

@@ -132,7 +132,7 @@
 
 ### <h3 id="nav_01_02">🌴 树形结构</h3>
 
-![image](https://user-images.githubusercontent.com/87458342/128842161-8ada43c4-3fc7-420e-b1e5-6f93307dea7e.png)
+![image](https://user-images.githubusercontent.com/87458342/129315486-3ce4ee38-4043-43aa-9e4f-cb405c3fb6fe.png)
 
 ##### [二叉树：创建二叉树，插入树结点，前序遍历，中序遍历，后续遍历，二叉树深度，叶结点个数](https://github.com/0voice/algorithm-structure/tree/master/二叉树算法)
 

@@ -76,6 +76,8 @@
 >> [🏮 经典项目](#nav_02_03)
 >> 
 >> [🧲 经典游戏](#nav_02_04)
+>> 
+>> [🧾 附录](#nav_02_05)
 
 <br/>
 
@@ -183,12 +185,16 @@
 ![image](https://user-images.githubusercontent.com/87458342/128847587-8e909dda-6d2f-4e2c-9d17-acf0defa0d3b.png)
 
 ##### [有向图](https://github.com/0voice/algorithm-structure/blob/master/图/有向图/有向图.c)
+<!--
 * 如果边是有方向的则称为有向图
 * ![image](https://user-images.githubusercontent.com/87458342/129164620-81651b53-6209-4aaa-bf28-ef45bd297a78.png)
+-->
 
 ##### [无向图](https://github.com/0voice/algorithm-structure/blob/master/图/无向图/无向图.c)
+<!--
 * 如果边没有方向则称为无向图
 * ![image](https://user-images.githubusercontent.com/87458342/129164658-f21f198c-30e8-4660-83d9-1425a8ebb882.png)
+-->
 
 
 ##### [无权图](https://github.com/0voice/algorithm-structure/blob/master/图/无权图/无权图.c)
@@ -217,57 +223,82 @@
 
 #### 算法复杂度
 
-排序算法   |-       |-       |-       |-       |-       
-:-------- |:-------|:-------|:-------|:-------|:-------
-插入排序   |O(n2)   |O(n2)   |O(n)    |O(1)    |稳定
-希尔排序   |O(n1.3) |O(n2)   |O(n)    |O(1)    |不稳定
-选择排序   |O(n2)   |O(n2)   |O(n2)   |O(1)    |不稳定
-堆排序     |O(nlog2n)|O(nlog2n)|O(nlog2n)|O(1)    |不稳定
-冒泡排序   |O(n2)   |O(n2)   |O(n)    |O(1)    |稳定
-快速排列   |O(nlog2n)|O(n2)   |O(nlog2n)|O(nlog2n)|不稳定
-归并排序   |O(nlog2n)|O(nlog2n)|O(nlog2n)    |O(n)    |稳定
-计数排序   |O(n+k)   |O(n+k)   |O(n+k)    |O(n+k)    |稳定
-桶排序     |O(n+k)   |O(n2)   |O(n)    |O(n+k)    |稳定
-计数排序   |O(n\*k)  |O(n\*k) |O(n\*k)  |O(n+k)    |稳定
+排序算法   | 平均情况  |最好情况   |最坏情况   |空间复杂度  |稳定与否
+:---------|:---------|:----------|:---------|:----------|:-------
+冒泡排序   |O(n2)     |O(n2)      |O(n2)     |1          |稳定
+选择排序   |O(n2)     |O(n2)      |O(n2)     |1          |不稳定
+插入排序   |O(n2)     |O(n)       |O(n)      |1          |稳定
+希尔排序   |O(nlogn)  |依赖增量序列|依赖增量序列|1         |不稳定
+快速排列   |O(nlogn)  |O(nlogn)   |O(n2)     |O(logn)    |不稳定
+归并排序   |O(nlogn)  |O(nlogn)   |O(nlogn)  |O(n)       |稳定
+二叉树排序 |O(nlogn)  |O(nlogn)   |O(n2)     |O(n)       |稳定
+计数排序   |O(n+k)    |O(n+k)     |O(n+k)    |O(n+k)     |稳定
+桶排序     |O(n+k)    |O(n2)      |O(n)      |O(n+k)     |稳定
+堆排序     |O(nlogn)  |O(nlogn)   |O(nlogn)  |1          |不稳定
+拓扑排序   |O(N+E)    |-          |-         |O(n)       |-
 
-#### 算法动图显示
+#### 算法动图演示
+
+请看附录 [https://github.com/0voice/algorithm-structure#nav_02_05](https://github.com/0voice/algorithm-structure#nav_02_05)
+
 
 ##### [冒泡排序](https://github.com/0voice/algorithm-structure/blob/master/冒泡排序算法/BubbleSortMain.c)
+<!--
 ![image](https://img-blog.csdnimg.cn/20190517142259572.gif)
+-->
 
 ##### [插入排序](https://github.com/0voice/algorithm-structure/blob/master/插入排序算法/InsertSort.c)
+<!--
 ![image](https://img-blog.csdnimg.cn/20190517142521855.gif)
+-->
 
 ##### [希尔排序](https://github.com/0voice/algorithm-structure/blob/master/希尔排序算法/ShellSort.c)
+<!--
 ![image](https://img-blog.csdnimg.cn/20190517142611755.gif)
+-->
 
 ##### [选择排序](https://github.com/0voice/algorithm-structure/blob/master/选择排序算法/selectsort.c)
+<!--
 ![image](https://img-blog.csdnimg.cn/20190517142411197.gif)
+-->
 
 ##### [堆排序](https://github.com/0voice/algorithm-structure/blob/master/堆排序算法/heap_sort.c)
+<!--
 ![image](https://img-blog.csdnimg.cn/20190517142825891.gif)
+-->
 
 ##### [归并排序](https://github.com/0voice/algorithm-structure/blob/master/归并排序算法/mergesort.c)
+<!--
 ![image](https://img-blog.csdnimg.cn/20190517142701685.gif)
+-->
 
 ##### [桶排序](https://github.com/0voice/algorithm-structure/blob/master/桶排序/bin_sort_main.c)
 <!--![image](https://user-images.githubusercontent.com/87458342/128964956-08109273-3a90-463e-aec8-fe9c6adfbb0a.png)-->
+<!--
 ![image](https://www.weixiuzhan.cn/file/upload/2020/5/7fqQNr.gif)
+-->
 
 ##### [基数排序](https://github.com/0voice/algorithm-structure/blob/master/基数排序算法/DigitSort.c)
+<!--
 ![image](https://img-blog.csdnimg.cn/20190517143109965.gif)
+-->
 
 ##### [计数排序](https://github.com/0voice/algorithm-structure/blob/master/计数排序算法/CountSort.c)
+<!--
 ![image](https://img-blog.csdnimg.cn/20190517142910579.gif)
+-->
 
 ##### [快速排序1](https://github.com/0voice/algorithm-structure/blob/master/快速排序算法/quick_sort.c)
 
 ##### [快速排序2](https://github.com/0voice/algorithm-structure/blob/master/快速排序2/快速排序法(2).c)
 
 ##### [快速排序3](https://github.com/0voice/algorithm-structure/blob/master/快速排序3/快速排序法(3).c)
+<!--
 ![image](https://img-blog.csdnimg.cn/20190517142745730.gif)
+-->
 
 ##### [拓扑排序](https://github.com/0voice/algorithm-structure/blob/master/拓扑排序算法/拓扑排序.c)
+<!--
 拓扑排序步骤：
 1. 删除1或2输出
   ![image](https://user-images.githubusercontent.com/87458342/128965579-98f47154-f21d-4d49-a45b-cc1a3e59f182.png)
@@ -277,6 +308,7 @@
   ![image](https://user-images.githubusercontent.com/87458342/128965721-6e7246ea-2f10-42c9-8599-1c3086519f68.png)
 4. 重复以上规则步骤
   ![image](https://user-images.githubusercontent.com/87458342/128965777-e76c8231-6998-477c-987b-1dfe240be6df.png)
+-->
 
 <br/>
 
@@ -624,6 +656,52 @@
 ##### [记忆游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/记忆游戏)
 ##### [贪吃蛇(穿墙)](https://github.com/0voice/algorithm-structure/tree/master/开源项目/贪吃蛇(穿墙))
 ##### [贪吃蛇](https://github.com/0voice/algorithm-structure/tree/master/开源项目/贪吃蛇)
+
+### <h3 id="nav_02_05">🧾 附录 </h3>
+
+#### 算法动图显示
+
+##### [冒泡排序](#appendix_01_01)
+![image](https://img-blog.csdnimg.cn/20190517142259572.gif)
+
+##### [插入排序](#appendix_01_02)
+![image](https://img-blog.csdnimg.cn/20190517142521855.gif)
+
+##### [希尔排序](#appendix_01_03)
+![image](https://img-blog.csdnimg.cn/20190517142611755.gif)
+
+##### [选择排序](#appendix_01_04)
+![image](https://img-blog.csdnimg.cn/20190517142411197.gif)
+
+##### [堆排序](#appendix_01_05)
+![image](https://img-blog.csdnimg.cn/20190517142825891.gif)
+
+##### [归并排序](#appendix_01_06)
+![image](https://img-blog.csdnimg.cn/20190517142701685.gif)
+
+##### [桶排序](#appendix_01_07)
+![image](https://www.weixiuzhan.cn/file/upload/2020/5/7fqQNr.gif)
+
+##### [基数排序](#appendix_01_08)
+![image](https://img-blog.csdnimg.cn/20190517143109965.gif)
+
+##### [计数排序](#appendix_01_09)
+![image](https://img-blog.csdnimg.cn/20190517142910579.gif)
+
+##### [快速排序](#appendix_01_10)
+![image](https://img-blog.csdnimg.cn/20190517142745730.gif)
+
+##### [拓扑排序](#appendix_01_11)
+拓扑排序步骤：
+1. 删除1或2输出
+  ![image](https://user-images.githubusercontent.com/87458342/128965579-98f47154-f21d-4d49-a45b-cc1a3e59f182.png)
+2. 删除2或3以及对应边
+  ![image](https://user-images.githubusercontent.com/87458342/128965682-9d91ced1-29be-4caa-87b0-85eb02695160.png)
+3. 删除3或者4以及对应边
+  ![image](https://user-images.githubusercontent.com/87458342/128965721-6e7246ea-2f10-42c9-8599-1c3086519f68.png)
+4. 重复以上规则步骤
+  ![image](https://user-images.githubusercontent.com/87458342/128965777-e76c8231-6998-477c-987b-1dfe240be6df.png)
+
 
 <br/>
 <br/>

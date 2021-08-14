@@ -240,7 +240,7 @@
 
 #### 算法动图演示
 
-算法动图演示请看附录 [📃 附录1](https://github.com/0voice/algorithm-structure#nav_03_01)
+算法动图演示请看 [📃 附录1](https://github.com/0voice/algorithm-structure#nav_03_01)
 
 
 ##### [冒泡排序](https://github.com/0voice/algorithm-structure/blob/master/冒泡排序算法/BubbleSortMain.c)

@@ -77,7 +77,8 @@
 >> 
 >> [🧲 经典游戏](#nav_02_04)
 >> 
->> [🧾 附录](#nav_02_05)
+> [📒 附录](#nav_03)
+>> [📃 附录1](#nav_03_01)
 
 <br/>
 
@@ -239,7 +240,7 @@
 
 #### 算法动图演示
 
-请看附录 [https://github.com/0voice/algorithm-structure#nav_02_05](https://github.com/0voice/algorithm-structure#nav_02_05)
+算法动图演示请看附录 [📃 附录1](https://github.com/0voice/algorithm-structure#nav_03_01)
 
 
 ##### [冒泡排序](https://github.com/0voice/algorithm-structure/blob/master/冒泡排序算法/BubbleSortMain.c)
@@ -660,7 +661,12 @@
 ##### [贪吃蛇(穿墙)](https://github.com/0voice/algorithm-structure/tree/master/开源项目/贪吃蛇(穿墙))
 ##### [贪吃蛇](https://github.com/0voice/algorithm-structure/tree/master/开源项目/贪吃蛇)
 
-### <h3 id="nav_02_05">🧾 附录 </h3>
+<br/>
+<br/>
+
+## <h3 id="nav_03">📒 附录 </h3>
+
+### <h3 id="nav_03_01">📃 附录1</h3>
 
 #### 算法动图显示
 

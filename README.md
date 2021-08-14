@@ -117,17 +117,21 @@
 ##### [动态栈：初始化，进栈，出栈](https://github.com/0voice/algorithm-structure/blob/master/动态栈/动态栈.c)
 
 ##### [顺序队列](https://github.com/0voice/algorithm-structure/blob/master/顺序队列/顺序队列.c)
+<!--
 ![image](https://user-images.githubusercontent.com/87458342/129168275-74c13616-2c17-4e4b-b2fa-01c9c3af887e.png)
+-->
 
 ##### [循环队列](https://github.com/0voice/algorithm-structure/blob/master/循环队列/循环队列.c)
+<!--
 ![image](https://user-images.githubusercontent.com/87458342/129166726-69ec0a21-680b-4ed9-8ac6-5f8ed4b5ed0f.png)
+-->
 
 ##### [链式队列](https://github.com/0voice/algorithm-structure/blob/master/链式队列/链式队列.c)
-
+<!--
 ![image](https://img-blog.csdnimg.cn/20191220192454210.gif)
 
 ![image](https://img-blog.csdnimg.cn/20191220192817457.gif)
-
+-->
 <br/>
 
 ### <h3 id="nav_01_02">🌴 树形结构</h3>

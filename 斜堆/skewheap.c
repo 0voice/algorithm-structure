@@ -1,10 +1,3 @@
-/**
- * C语言实现的斜堆
- *
- * @author skywang
- * @date 2014/03/31
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "skewheap.h"

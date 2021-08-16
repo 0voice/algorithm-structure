@@ -1,185 +1,119 @@
-//图的深度优先遍历源代码
-//有如下要求：
-//1.分别采用邻接矩阵存储结构实现图的深度优先遍历
-//2.对任意给定的图（顶点数边树自定）建立它的邻接矩阵并输出
-//3.实现图的深度优先遍历
+//深度优先搜索代码实现
+#include <stdio.h>
 
-#include <iostream>
-using namespace std;
-template<typename T,typename E>
+#define MAX_VERtEX_NUM 20                   //顶点的最大个数
+#define VRType int                          //表示顶点之间的关系的变量类型
+#define InfoType char                       //存储弧或者边额外信息的指针变量类型
+#define VertexType int                      //图中顶点的数据类型
 
-class _edge
-{
-public:
-    int _dest;
-    E _cost;
-    _edge<T,E>* _link;
-    _edge(){}
-    _edge(int _num,T _weight):_dest(_num),_cost(_weight),_link(NULL){}
-    bool operator!=(_edge<T,E>& rhs)const
-    {
-        return (_dest != rhs._dest) ? true : false;
+typedef enum{false,true}bool;               //定义bool型常量
+bool visited[MAX_VERtEX_NUM];               //设置全局数组，记录标记顶点是否被访问过
+
+typedef struct {
+    VRType adj;                             //对于无权图，用 1 或 0 表示是否相邻；对于带权图，直接为权值。
+    InfoType * info;                        //弧或边额外含有的信息指针
+}ArcCell,AdjMatrix[MAX_VERtEX_NUM][MAX_VERtEX_NUM];
+
+typedef struct {
+    VertexType vexs[MAX_VERtEX_NUM];        //存储图中顶点数据
+    AdjMatrix arcs;                         //二维数组，记录顶点之间的关系
+    int vexnum,arcnum;                      //记录图的顶点数和弧（边）数
+}MGraph;
+//根据顶点本身数据，判断出顶点在二维数组中的位置
+int LocateVex(MGraph * G,VertexType v){
+    int i=0;
+    //遍历一维数组，找到变量v
+    for (; i<G->vexnum; i++) {
+        if (G->vexs[i]==v) {
+            break;
+        }
     }
-};
-
-template<typename T,typename E>
-struct _vertex
-{
-    T _data;
-    _edge<T,E>* _adj;
-};
-
-template<typename T,typename E>
-class _graphLink
-{
-    friend istream& operator>>(istream& is,_graphLink<T,E>& rhs);
-    friend ostream& operator<<(ostream& os,_graphLink<T,E>& rhs);
-public:
-    _graphLink(int sz = 100);
-    ~_graphLink();
-    int _getCurVert()const{return _curVert;}
-    T _getValue(int i)
-    {
-        return (i >= 0 && i <= _curVert) ? _nodeTable[ i ]._data : 0;
-    }
-    bool _insV(const T& _vert);
-    bool _insE(int v1,int v2);
-    int _getFirstNeighBor(int v);
-    int _getNextNeighBor(int v,int w);
-    int _getVertexPos(const T vert)
-    {
-        for (int i = 0;i < _curVert;i ++)
-            if (_nodeTable[ i ]._data == vert)
-                return i;
-
+    //如果找不到，输出提示语句，返回-1
+    if (i>G->vexnum) {
+        printf("no such vertex.\n");
         return -1;
     }
-private:
-    int _curVert;
-    int _curEdge;
-    int _maxVert;
-    _vertex<T,E>* _nodeTable;
-};
-
-template<typename T,typename E>
-_graphLink<T,E>::_graphLink(int sz)
-{
-_maxVert = sz;_curVert = 0;_curEdge = 0;
-_nodeTable = new _vertex<T,E>[_maxVert + 1];
-for (int i = 0;i < _maxVert;i ++)_nodeTable[ i ]._adj = NULL;
+    return i;
 }
-
-template<typename T,typename E>
-_graphLink<T,E>::~_graphLink()
-{
-    for (int i = 0;i < _curVert;i ++)
-    {
-        _edge<T,E>* p = _nodeTable[ i ]._adj;
-        while (p != NULL)
-        {
-            _nodeTable[ i ]._adj = p ->_link;
-            delete p;p = _nodeTable[ i ]._adj;
+//构造无向图
+void CreateDN(MGraph *G){
+    scanf("%d,%d",&(G->vexnum),&(G->arcnum));
+    for (int i=0; i<G->vexnum; i++) {
+        scanf("%d",&(G->vexs[i]));
+    }
+    for (int i=0; i<G->vexnum; i++) {
+        for (int j=0; j<G->vexnum; j++) {
+            G->arcs[i][j].adj=0;
+            G->arcs[i][j].info=NULL;
         }
     }
-    delete [] _nodeTable;
-}
-
-template<typename T,typename E>
-int _graphLink<T,E>::_getFirstNeighBor(int v)
-{
-    if (v != -1)
-    {
-        _edge<T,E> *p = _nodeTable[ v ]._adj;
-        if (p != NULL)return p ->_dest;
+    for (int i=0; i<G->arcnum; i++) {
+        int v1,v2;
+        scanf("%d,%d",&v1,&v2);
+        int n=LocateVex(G, v1);
+        int m=LocateVex(G, v2);
+        if (m==-1 ||n==-1) {
+            printf("no this vertex\n");
+            return;
+        }
+        G->arcs[n][m].adj=1;
+        G->arcs[m][n].adj=1;//无向图的二阶矩阵沿主对角线对称
     }
-
-    return -1;
 }
 
-template<typename T,typename E>
-int _graphLink<T,E>::_getNextNeighBor(int v, int w)
+int FirstAdjVex(MGraph G,int v)
 {
-    if (v != -1)
-    {
-        _edge<T,E>* p = _nodeTable[ v ]._adj;
-        while (p != NULL && p ->_dest != w)p = p ->_link;
-        if (p != NULL && p ->_link != NULL)
-            return p ->_link ->_dest;
+    //查找与数组下标为v的顶点之间有边的顶点，返回它在数组中的下标
+    for(int i = 0; i<G.vexnum; i++){
+        if( G.arcs[v][i].adj ){
+            return i;
+        }
     }
     return -1;
 }
-
-template<typename T,typename E>
-bool _graphLink<T,E>::_insV(const T &_vert)
+int NextAdjVex(MGraph G,int v,int w)
 {
-    if (_curVert == _maxVert)return false;
-        _nodeTable[ _curVert ]._data = _vert;
-        _curVert ++;
-        return true;
-}
-
-template<typename T,typename E>
-bool _graphLink<T,E>::_insE(int v1, int v2)
-{
-    if (v1 >= 0 && v1 <= _curVert && v2 >= 0 && v2 <= _curVert)
-    {
-        _edge<T,E> *q,*p = _nodeTable[ v1 ]._adj;
-        while (p != NULL && p ->_dest != v2)p = p ->_link;
-        if (p != NULL)return false;
-        p = new _edge<T,E>;q = new _edge<T,E>;
-        p ->_dest = v2;p ->_link = _nodeTable[ v1 ]._adj;
-        _nodeTable[ v1 ]._adj = p;
-        q ->_dest = v1;q ->_link = _nodeTable[ v2 ]._adj;
-        _nodeTable[ v2 ]._adj = q;
-        _curEdge ++;
-        return true;
-    }
-
-    return 0;
-}
-
-template<typename T,typename E>
-void _dfs(_graphLink<T,E>& _g,const T& v)
-{
-    int _loc,n = _g._getCurVert();
-    bool* _visited = new bool[n + 1];
-    for (int i = 0;i <= n;i ++)_visited[ i ] = false;
-    _loc = _g._getVertexPos(v);
-    _dfs(_g,_loc,_visited);
-    delete [] _visited;
-}
-
-template<typename T,typename E>
-void _dfs(_graphLink<T,E>& _g,int v,bool _visited[])
-{
-    cout<<"dfs:"<<_g._getValue(v)<<" ";
-    _visited[ v ] = true;
-    int w = _g._getFirstNeighBor(v);
-    while (w != -1)
-    {
-        if (_visited[ w ] == false)_dfs(_g,w,_visited);
-        w = _g._getNextNeighBor(v,w);
-    }
-}
-
-int main()
-{
-    int n,k,m;
-    int e1,e2;
-    cin>>n;
-    while (n --)
-    {
-        cin>>k>>m;
-        _graphLink<int,int> _g(k);
-        for (int i = 1;i <= k;i ++)
-        _g._insV(i);
-        for (int i = 0;i < m;i ++)
-        {
-            scanf("%d%d",&e1,&e2);
-            _g._insE(e1,e2);
+    //从前一个访问位置w的下一个位置开始，查找之间有边的顶点
+    for(int i = w+1; i<G.vexnum; i++){
+        if(G.arcs[v][i].adj){
+            return i;
         }
-        _dfs(_g,1);
     }
-    system("PAUSE");
+    return -1;
+}
+void visitVex(MGraph G, int v){
+    printf("%d ",G.vexs[v]);
+}
+void DFS(MGraph G,int v){
+    visited[v] = true;//标记为true
+    visitVex( G,  v); //访问第v 个顶点
+    //从该顶点的第一个边开始，一直到最后一个边，对处于边另一端的顶点调用DFS函数
+    for(int w = FirstAdjVex(G,v); w>=0; w = NextAdjVex(G,v,w)){
+        //如果该顶点的标记位false，证明未被访问，调用深度优先搜索函数
+        if(!visited[w]){
+            DFS(G,w);
+        }
+    }
+}
+//深度优先搜索
+void DFSTraverse(MGraph G){//
+    int v;
+    //将用做标记的visit数组初始化为false
+    for( v = 0; v < G.vexnum; ++v){
+        visited[v] = false;
+    }
+    //对于每个标记为false的顶点调用深度优先搜索函数
+    for( v = 0; v < G.vexnum; v++){//这个可以作为非连通图的遍历模式
+        //如果该顶点的标记位为false，则调用深度优先搜索函数
+        if(!visited[v]){
+            DFS( G, v);
+        }
+    }
+}
+
+int main() {
+    MGraph G;//建立一个图的变量
+    CreateDN(&G);//初始化图
+    DFSTraverse(G);//深度优先搜索图
     return 0;
 }

@@ -173,11 +173,11 @@
 
 ![image](https://user-images.githubusercontent.com/87458342/128842022-228783af-ddca-45b3-afba-cd0b41f4076c.png)
 
-##### [二叉堆](https://github.com/0voice/algorithm-structure/blob/master/二叉堆/二叉堆.c)
-##### [左倾堆](https://github.com/0voice/algorithm-structure/blob/master/左倾堆/左倾堆.c)
-##### [斜堆](https://github.com/0voice/algorithm-structure/blob/master/斜堆/斜堆.c)
-##### [二项堆](https://github.com/0voice/algorithm-structure/blob/master/二项堆/二项堆.c)
-##### [斐波那契堆](https://github.com/0voice/algorithm-structure/blob/master/斐波那契堆/斐波那契堆.c)
+##### [二叉堆](https://github.com/0voice/algorithm-structure/blob/master/二叉堆)
+##### [左倾堆](https://github.com/0voice/algorithm-structure/blob/master/左倾堆/)
+##### [斜堆](https://github.com/0voice/algorithm-structure/blob/master/斜堆)
+##### [二项堆](https://github.com/0voice/algorithm-structure/blob/master/二项堆)
+##### [斐波那契堆](https://github.com/0voice/algorithm-structure/blob/master/斐波那契堆)
 
 <br/>
 

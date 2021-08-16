@@ -149,7 +149,7 @@
 
 ##### [完全二叉树](https://github.com/0voice/algorithm-structure/blob/master/完全二叉树算法/CBT.c)
 
-##### [伸展树](https://github.com/0voice/algorithm-structure/blob/master/伸展树算法/splay_tree.c)
+##### [伸展树](https://github.com/0voice/algorithm-structure/blob/master/伸展树算法)
 
 ##### [LSM 树](https://github.com/0voice/algorithm-structure/blob/master/LSM树算法/LSM.c)
 

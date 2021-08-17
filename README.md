@@ -323,7 +323,7 @@
 ##### [二分查找](https://github.com/0voice/algorithm-structure/blob/master/二分查找算法/BinarySearch.c)
 ##### [插值查找](https://github.com/0voice/algorithm-structure/blob/master/插值查找/插值查找.c)
 ##### [斐波那契查找](https://github.com/0voice/algorithm-structure/blob/master/斐波那契查找/斐波那契查找.c)
-##### [树表查找](https://github.com/0voice/algorithm-structure/blob/master/树表查找/树表查找.c)
+##### [树表查找](https://github.com/0voice/algorithm-structure/blob/master/树表查找)
 ##### [分块查找](https://github.com/0voice/algorithm-structure/blob/master/分块查找/分块查找.c)
 ##### [哈希查找](https://github.com/0voice/algorithm-structure/blob/master/哈希查找/哈希查找.c)
 
@@ -398,7 +398,7 @@
 ##### [费列数列](https://github.com/0voice/algorithm-structure/blob/master/费列数列/Fibonacci.c)
 ##### [布隆过滤器](https://github.com/0voice/algorithm-structure/blob/master/布隆过滤器/bloom.c)
 ##### [RSA加密算法](https://github.com/0voice/algorithm-structure/blob/master/RSA加密算法/rsa.c)
-##### [回溯算法](https://github.com/0voice/algorithm-structure/blob/master/回溯算法/回溯算法.c)
+##### [回溯算法](https://github.com/0voice/algorithm-structure/blob/master/回溯算法/回溯算法.cpp)
 ##### [递归算法](https://github.com/0voice/algorithm-structure/blob/master/递归算法/递归算法.c)
 ##### [分治算法](https://github.com/0voice/algorithm-structure/blob/master/分治算法/分治算法.c)
 ##### [贪心算法](https://github.com/0voice/algorithm-structure/blob/master/贪心算法/greedy.c)

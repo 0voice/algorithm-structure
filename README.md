@@ -206,7 +206,7 @@
 
 ##### [广度优先搜索](https://github.com/0voice/algorithm-structure/blob/master/广度优先搜索/广度优先搜索.c)
 
-##### [迭代加深搜索（ID搜索）](https://github.com/0voice/algorithm-structure/blob/master/迭代加深搜索/迭代加深搜索.c)
+##### [迭代加深搜索（ID搜索）](https://github.com/0voice/algorithm-structure/blob/master/迭代加深搜索/迭代加深搜索.cpp)
 
 ##### [约束满足搜索](https://github.com/0voice/algorithm-structure/blob/master/约束满足搜索/约束满足搜索.c)
 

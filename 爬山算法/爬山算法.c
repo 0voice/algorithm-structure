@@ -1,62 +1,69 @@
-#include<cstring>
-#include<string>
-#include<iostream>
-#include<queue>
-#include<cstdio>
-#include<algorithm>
-#include<map>
-#include<cstdlib>
-#include<cmath>
-#include<vector>
+#include <cmath> 
+#include <cstdio>
+#include <cstring>
+#include <iostream>
+#include <algorithm>
+#define N 10010
+#define eps 1e-8
+#define pro 0.97
 
-//#pragma comment(linker, "/STACK:1024000000,1024000000");
- 
 using namespace std;
- 
-#define INF 0x3f3f3f3f
- 
-double y;
- 
-double getsum(double x)
+int n;
+struct Point
 {
-    return 6*pow(x,7)+8*pow(x,6)+7*pow(x,3)+5*x*x-y*x;
+    double x,y;
+    friend ostream& operator << (ostream &_,Point a)
+    {
+        printf("%.3lf %.3lf\n",a.x,a.y);
+        return _;
+    } 
+    Point(){}
+    Point(double _x,double _y):x(_x),y(_y){}
+    Point operator + (const Point &a)
+    {return Point(x+a.x,y+a.y);}
+    Point operator - (const Point &a)
+    {return Point(x-a.x,y-a.y);}
+    Point operator * (double rate)
+    {return Point(x*rate,y*rate);} 
+    double operator * (const Point &a)
+    {return x*a.x+y*a.y;}
+};
+struct GTY
+{
+    Point p;
+    double g;
+    friend istream& operator >> (istream &_,GTY &a)
+    {
+        scanf("%lf%lf%lf",&a.p.x,&a.p.y,&a.g);
+        return _;
+    }
+}pt[N];
+double Get_Dis(Point a,Point b)
+{
+    return sqrt((a-b)*(a-b)); 
 }
- 
+Point Get_Direction(Point a)
+{
+    Point p(0,0);
+    for(int i=1;i<=n;i++)
+    {
+        Point tmp=(pt[i].p-a)*(pt[i].g/Get_Dis(pt[i].p,a));
+        p=p+tmp;
+    }
+    return p;
+}
+Point Climb_Hill(Point now,double basement)
+{
+    if(basement<eps)return now;
+    Point to=Get_Direction(now);
+    to=to*basement;
+    return Climb_Hill(now+to,basement*pro);
+}
 int main()
 {
-    int T;
-    scanf("%d",&T);
-    while(T--)
-    {
-        scanf("%lf",&y);
-        double delte=0.98;
-        double t=100;
-        double x=0;
-        double ans=getsum(x);
-        while(t>1e-8)
-        {
-            int flag=1;
-            while(flag)
-            {
-                flag=0;
-                double temp=x+t;
-                if(temp>=0&&temp<=100&&getsum(temp)<ans&&fabs(ans-getsum(temp))>=1e-8)
-                {
-                    x=temp;
-                    ans=getsum(temp);
-                    flag=1;
-                }
-                temp=x-t;
-                if(temp>=0&&temp<=100&&getsum(temp)<ans&&fabs(ans-getsum(temp))>=1e-8)
-                {
-                    x=temp;
-                    ans=getsum(temp);
-                    flag=1;
-                }
-            }
-            t*=delte;
-        }
-        printf("%.4f\n",ans);
-    }
-    return 0;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)cin>>pt[i];
+    Point Base_Point(1999.5,329.5);
+    Point ans=Climb_Hill(Base_Point,100000);
+    cout<<ans;
 }

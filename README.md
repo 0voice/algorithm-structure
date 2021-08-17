@@ -165,6 +165,8 @@
 
 ##### [B\*树](https://github.com/0voice/algorithm-structure/blob/master/B*树算法)
 
+##### [决策树](https://github.com/0voice/algorithm-structure/blob/master/决策树) 
+
 ##### [并查集](https://github.com/0voice/algorithm-structure/blob/master/并查集)
 
 <br/>

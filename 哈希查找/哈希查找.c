@@ -81,3 +81,39 @@ int SearchHash(HashTable *h, int key)
 	}  
 	return 0;  
 }  
+
+
+void main()  
+{  
+	int n ,key;  
+	int i;  
+	HashTable H;  
+	printf("input the length of the Hash that we want to build:");  
+	scanf_s("%d", &n);  
+	for(i = 0;i <= tablesize; i++)  
+		H.ChainHash[i].next = NULL;  
+	H.count = 0;  
+	CreateHashTable(&H,n);  
+ 
+ 
+	printf("The hash table that we build is:");  
+	PrintHashTable(&H);  
+ 
+ 
+	printf("\nInput the key that we want to search(-1 for exit):");  
+	scanf_s("%d", &key);  
+	while(key != -1)  
+	{  
+		if(SearchHash(&H, key))  
+			printf("There is a %d record in the Hash Table!\n", key);  
+		else  
+			printf("There is not a %d record in the Hash Table!\n", key);  
+ 
+ 
+		printf("\nInput the key that we want to search(-1 for exit):");  
+		scanf_s("%d", &key);  
+	}  
+ 
+	free(&H);
+	return;
+}  

@@ -672,7 +672,7 @@
 ### <h3 id="nav_02_05">💿 视频讲解游戏 </h3>
 ##### [火柴人试炼之地](https://github.com/0voice/algorithm-structure/tree/master/视频讲解游戏/火柴人试炼之地)
 ##### [雷霆战机](https://github.com/0voice/algorithm-structure/tree/master/视频讲解游戏/雷霆战机)
-##### [奇怪的大冒险](https://github.com/0voice/algorithm-structure/tree/master/视频讲解游戏/奇怪的大冒险)
+##### [奇怪大冒险](https://github.com/0voice/algorithm-structure/tree/master/视频讲解游戏/奇怪大冒险)
 ##### [气球塔防](https://github.com/0voice/algorithm-structure/tree/master/视频讲解游戏/气球塔防)
 ##### [太空大战](https://github.com/0voice/algorithm-structure/tree/master/视频讲解游戏/太空大战)
 

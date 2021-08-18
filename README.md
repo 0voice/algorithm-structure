@@ -77,6 +77,8 @@
 >> 
 >> [🧲 经典游戏](#nav_02_04)
 >> 
+>> [💿 视频讲解游戏](#nav_02_05)
+
 > [📒 附录](#nav_03)
 >> [📃 附录1](#nav_03_01)
 
@@ -664,6 +666,15 @@
 ##### [记忆游戏](https://github.com/0voice/algorithm-structure/tree/master/开源项目/记忆游戏)
 ##### [贪吃蛇(穿墙)](https://github.com/0voice/algorithm-structure/tree/master/开源项目/贪吃蛇(穿墙))
 ##### [贪吃蛇](https://github.com/0voice/algorithm-structure/tree/master/开源项目/贪吃蛇)
+
+<br/>
+
+### <h3 id="nav_02_05">💿 视频讲解游戏 </h3>
+##### [火柴人试炼之地](https://github.com/0voice/algorithm-structure/tree/master/视频讲解游戏/火柴人试炼之地)
+##### [雷霆战机](https://github.com/0voice/algorithm-structure/tree/master/视频讲解游戏/雷霆战机)
+##### [奇怪的大冒险](https://github.com/0voice/algorithm-structure/tree/master/视频讲解游戏/奇怪的大冒险)
+##### [气球塔防](https://github.com/0voice/algorithm-structure/tree/master/视频讲解游戏/气球塔防)
+##### [太空大战](https://github.com/0voice/algorithm-structure/tree/master/视频讲解游戏/太空大战)
 
 <br/>
 <br/>

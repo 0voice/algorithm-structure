@@ -370,8 +370,8 @@
 ##### [稠密矩阵](https://github.com/0voice/algorithm-structure/blob/master/稠密矩阵/稠密矩阵.c)
 ##### [三角矩阵](https://github.com/0voice/algorithm-structure/blob/master/三角矩阵/三角矩阵.c)
 ##### [多维矩阵转一维矩阵](https://github.com/0voice/algorithm-structure/blob/master/多维矩阵转一维矩阵/多维矩阵转一维矩阵.c)
-##### [矩阵连乘 动态规划迭代实现](https://github.com/0voice/algorithm-structure/blob/master/矩阵连乘%20动态规划迭代实现/矩阵连乘%20动态规划迭代实现.c)
-##### [矩阵连乘 备忘录递归实现](https://github.com/0voice/algorithm-structure/blob/master/矩阵连乘%20备忘录递归实现/矩阵连乘%20备忘录递归实现.c)
+##### [矩阵连乘 动态规划迭代实现](https://github.com/0voice/algorithm-structure/blob/master/矩阵连乘/矩阵连乘_动态规划迭代实现.java)
+##### [矩阵连乘 备忘录递归实现](https://github.com/0voice/algorithm-structure/blob/master/矩阵连乘/矩阵连乘_备忘录递归实现.java)
 <br/>
 
 ### <h3 id="nav_01_10">➰ 项目中常用算法</h3>

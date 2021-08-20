@@ -366,6 +366,7 @@
 ##### [对称矩阵](https://github.com/0voice/algorithm-structure/blob/master/对称矩阵/对称矩阵.c)
 ##### [对角矩阵](https://github.com/0voice/algorithm-structure/blob/master/对角矩阵/对角矩阵.c)
 ##### [稀疏矩阵](https://github.com/0voice/algorithm-structure/blob/master/稀疏矩阵/稀疏矩阵.c)
+##### [邻接矩阵](https://github.com/0voice/algorithm-structure/blob/master/邻接矩阵/邻接矩阵.c)
 ##### [稠密矩阵](https://github.com/0voice/algorithm-structure/blob/master/稠密矩阵/稠密矩阵.c)
 ##### [三角矩阵](https://github.com/0voice/algorithm-structure/blob/master/三角矩阵/三角矩阵.c)
 ##### [多维矩阵转一维矩阵](https://github.com/0voice/algorithm-structure/blob/master/多维矩阵转一维矩阵/多维矩阵转一维矩阵.c)
